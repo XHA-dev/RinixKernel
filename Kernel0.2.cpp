@@ -69,8 +69,12 @@ int main()
 	{
 		if(KernelConnection != "KernelVersion")
 		{
-			cout << "Invalid Command\n";
-			main();			
+			if(KernelConnection != "Apps")
+			{
+				cout << "Invalid Command\n";
+				main();	
+			}
+		
 		}
 
 	}
