@@ -13,6 +13,8 @@ int main()
 	if(KernelConnection == "Help")
 	{
 		cout << "Help - Prints out a list of commands\n";
+		cout << "Apps - Opens the app menu\n";
+		cout << "KernelVersion - Displays the Kernel Version"
 		main();
 
 	}
